@@ -57,10 +57,28 @@ bash netshift.sh
 bash netshift.sh
 ```
 
-Tool automatically detects your active interface — just enter your desired IP when prompted.
+Tool automatically detects your active network interface.
+
+### 📌 Steps:
+1. Tool run karo — automatically network scan karega
+2. Active interface detect hone ke baad **IP prompt aayega**
+3. Apna **naya IP address type karo** aur Enter dabaao
+4. Format: `192.168.1.100` ya same range mein koi bhi IP
+
+### 💡 Example:
+```
+[🌐] ACTIVE INTERFACE: eth0
+
+┌──[akazatec㉿NetShift]-[~]
+└─$ 172.18.31.65
+```
+
+✅ IP successfully change ho jayegi!
+
+> ⚠️ Note: Same network range mein IP dena — pehle 3 parts same honge.
+> Example: `172.18.31.XXX` mein sirf last number change karo (1-254)
 
 ---
-
 ## 🗂️ File Structure
 
 | File | Description |
